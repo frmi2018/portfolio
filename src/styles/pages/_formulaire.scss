@@ -1,0 +1,202 @@
+.formContent {
+  background: $color-3;
+  border-radius: $borderRadius;
+  width: 100%;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 20% 75%;
+  grid-template-areas:
+    "1"
+    "2";
+
+  .header {
+    grid-area: 1;
+    width: 100%;
+    position: relative;
+    background: $color-1;
+    height: 340px;
+
+    &:before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background: url(../../assets/img/map.jpg) no-repeat center top/cover;
+      filter: grayscale(100%);
+    }
+    &:after {
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 30px;
+      background: url(../../assets/img/shape.svg) no-repeat center / cover;
+    }
+  }
+  .formBox {
+    grid-area: 2;
+    background: $color-5;
+    margin: 0 auto;
+    padding: 1rem 3rem;
+    z-index: 2;
+    border-radius: $borderRadius;
+    box-shadow: 0 3px 10px $black;
+    width: 50%;
+    min-width: 440px;
+
+    h1 {
+      text-align: center;
+      margin-top: 0.3rem;
+      position: relative;
+      color: $color-2;
+
+      &:after {
+        content: "";
+        height: 1px;
+        width: 50%;
+        background: $black;
+        position: absolute;
+        bottom: -25px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+    .formInputs {
+      margin-top: 2rem;
+      height: 60%;
+      display: grid;
+      grid-template-rows: repeat(4, 1fr);
+    }
+    input,
+    textarea {
+      padding: 0;
+      background: none;
+      border: none;
+      outline: none;
+      font-family: $font-1;
+      font-size: 1.1rem;
+      border-bottom: 1px solid $black;
+      color: $color-1;
+    }
+    input::placeholder,
+    textarea::placeholder {
+      color: $color-1;
+    }
+    input,
+    .email-content,
+    textarea {
+      width: 90%;
+      margin: 0 auto;
+    }
+    input {
+      padding: 12px 0 12px;
+    }
+    .email-content {
+      position: relative;
+    }
+    .email-content input {
+      width: 100%;
+    }
+    #not-mail {
+      display: none;
+      position: absolute;
+      top: 4px;
+      color: #ff4d4d;
+      right: 0;
+      transform-origin: 50% 50%;
+    }
+    @keyframes dongle {
+      0% {
+        transform: translate(0px, 0px);
+      }
+      10% {
+        transform: translate(-10px, 0px);
+      }
+      20% {
+        transform: translate(10px, 0px);
+      }
+      30% {
+        transform: translate(-10px, 0px);
+      }
+      40% {
+        transform: translate(10px, 0px);
+      }
+      50% {
+        transform: translate(-10px, 0px);
+      }
+      60% {
+        transform: translate(10px, 0px);
+      }
+      70% {
+        transform: translate(-10px, 0px);
+      }
+      80% {
+        transform: translate(10px, 0px);
+      }
+      90% {
+        transform: translate(-10px, 0px);
+      }
+      100% {
+        transform: translate(0px, 0px);
+      }
+    }
+    textarea {
+      resize: none;
+      padding: 12px 0;
+    }
+    .button {
+      font-size: 1.5rem;
+      background: $color-2;
+      color: $color-1;
+      padding: 1rem 2rem;
+      border-radius: $borderRadius;
+      transition: 0.2s ease;
+      margin-top: 15px;
+      width: 100%;
+      border: none;
+      cursor: pointer;
+
+      &:hover {
+        background: $color-4;
+        letter-spacing: 2px;
+      }
+    }
+    .error::placeholder {
+      color: #ff4d4d;
+    }
+    .form-message {
+      margin-top: 10px;
+      padding: 12px;
+      opacity: 0;
+      transition: 0.2s ease;
+      color: black;
+      border-radius: 4px;
+      box-shadow: 0 0 2px rgba(51, 51, 51, 0.3);
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .formContent {
+    .header {
+      height: 170px;
+    }
+    .formBox {
+      min-width: 100% !important;
+      padding: 1rem;
+      min-width: 280px;
+
+      h1 {
+        font-size: 1.5rem !important;
+      }
+
+      .formInputs {
+        input,
+        textarea {
+          font-size: 0.9rem !important;
+        }
+      }
+    }
+  }
+}
