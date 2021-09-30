@@ -34,7 +34,7 @@ export const portfolioData = [
     name: "Airbnb",
     languages: ["css", "react", "expo"],
     languagesIcons: ["fab fa-js", "fab fa-css3-alt", "fab fa-react"],
-    source: "https://github.com/frmi2018/frmi-airbnb-reactnative",
+    source: "https://github.com/frmi2018/expo/tree/main/airbnb",
     info: "Application mobile IOS/android réalisé en 4 jours avec Expo (React native) sur Mac M1. C'est pour le moment ma seule expérience avec le développement mobile. Le projet est une reproduction simplifiée de l'application originale.",
     picture: "./media/img/airbnb.jpg",
     date: "septembre 2021",
