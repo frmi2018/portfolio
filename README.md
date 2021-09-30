@@ -1,10 +1,11 @@
 # Portfolio
 
-Realized by following a tutorial on Youtube by Fromscratch.
-Link to the [video tutoriel](https://www.youtube.com/watch?v=pS0v5eY7W9k&list=PLEiMYEzpB4QuzEG3vVsmD87nXyn7ohHpb&index=3).
+Realized by following this [tutorial](https://www.youtube.com/watch?v=pS0v5eY7W9k&list=PLEiMYEzpB4QuzEG3vVsmD87nXyn7ohHpb&index=3) on Youtube by Fromscratch.
 
 📅 started in September 2021  
 ✅ finish
+
+🌐 see online at http://portfolio.michaudfranck.ovh/
 
 ## Why ?
 
