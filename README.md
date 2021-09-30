@@ -12,9 +12,3 @@ To learn [React](https://fr.reactjs.org/).
 Added new features like a contact form with [emailJS](https://www.emailjs.com/docs/examples/reactjs/).
 
 <img src="https://github.com/frmi2018/portfolio/blob/main/public/portfolio.jpg" width="960" height=auto>
-
-## Get the Code
-
-```
-$ git clone https://github.com/frmi2018/frmi-cv.git
-```
