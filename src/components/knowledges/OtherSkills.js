@@ -26,15 +26,7 @@ const OtherSkills = () => {
         <ul>
           <li>
             <i className="fas fa-check-square"></i>
-            Bootstrap / Material UI
-          </li>
-          <li>
-            <i className="fas fa-check-square"></i>
             CMS (WordPress)
-          </li>
-          <li>
-            <i className="fas fa-check-square"></i>
-            SEO
           </li>
           <li>
             <i className="fas fa-check-square"></i>

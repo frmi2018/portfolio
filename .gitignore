@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 /react
+/vuejs
+/integration
 
 # testing
 /coverage
