@@ -11,7 +11,7 @@ Link to the [video tutoriel](https://www.youtube.com/watch?v=pS0v5eY7W9k&list=PL
 To learn [React](https://fr.reactjs.org/).  
 Added new features like a contact form with [emailJS](https://www.emailjs.com/docs/examples/reactjs/).
 
-<img src="https://github.com/frmi2018/frmi-cv/blob/main/public/portfolio.jpg" width="960" height=auto>
+<img src="https://github.com/frmi2018/portfolio/blob/main/public/portfolio.jpg" width="960" height=auto>
 
 ## Get the Code
 
