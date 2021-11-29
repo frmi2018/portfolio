@@ -4,10 +4,10 @@
 /node_modules
 /.pnp
 .pnp.js
-/react
-/vuejs
-/expo
-/typescript
+/react/*
+/vuejs/*
+/expo/*
+/typescript/*
 
 # testing
 /coverage
