@@ -4,11 +4,6 @@
 /node_modules
 /.pnp
 .pnp.js
-/react/*
-/vuejs/*
-/vuejs/wesh/*
-/expo/*
-/typescript/*
 
 # testing
 /coverage
