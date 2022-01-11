@@ -5,8 +5,6 @@ Realized by following this [tutorial](https://www.youtube.com/watch?v=pS0v5eY7W9
 📅 started in September 2021  
 ✅ finish
 
-🌐 see online at http://portfolio.michaudfranck.ovh/
-
 ## Why ?
 
 To learn [React](https://fr.reactjs.org/).  
